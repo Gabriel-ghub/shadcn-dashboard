@@ -1,0 +1,10 @@
+.header-section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 860px) {
+  .header-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
